@@ -1,4 +1,8 @@
 # This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class dash
+{
+  package { "dash":
+    provider => 'compressed_app',
+    source   => "http://kapeli.com/Dash.zip",
+  }
 }
